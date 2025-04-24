@@ -31,7 +31,7 @@ Deskripsi TEXT
 );
 
 -- Tabel Kondisi Cuaca
-CREATE TABLE Cuaca (
+CREATE TABLE Kondisi_cuaca (
 Id_Lokasi INT,
 Cuaca VARCHAR(100),
 PRIMARY KEY (Id_Lokasi, Cuaca),
@@ -110,7 +110,7 @@ INSERT INTO Lokasi (Nama, Deskripsi) VALUES
 ('Reruntuhan Langit', 'Reruntuhan kuno yang melayang dilangit'),
 ('Kawah Lava', 'Daerah panas dengan sungai lava');
 
-INSERT INTO Cuaca (Id_Lokasi, Cuaca) VALUES
+INSERT INTO Kondisi_cuaca (Id_Lokasi, Cuaca) VALUES
 (1, 'Cerah'),
 (2, 'Hujan'),
 (3, 'Berkabut'),
