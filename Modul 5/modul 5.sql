@@ -1,7 +1,7 @@
--- NAMA : YOGI SAPUTRA
--- NIM : 23241007
+-- NAMA : IRZA APRIANDI
+-- NIM : 23241034
 -- Kelas : A
--- Modul : modul 5 : JOIN/(subquery)
+-- Modul : modul 5 : JOIN
 
 USE PTI_mart;
 
